@@ -3,6 +3,10 @@ l = gensimLDA()
 l.lda = g.lda
 l.corpus_dict = g.corpus_dict
 l.generate_stop_words()
+"""
+Match each article with their closest (topic-distribution-wise) article
+"""
+
 
 # saved all query articles in a folder called query
 # names as follows
