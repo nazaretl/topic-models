@@ -4,6 +4,8 @@ import pandas as pd
 
 
 class gensimLDA(object):
+    """ Collection of functions that work on the Python library gensim to work queries against a LDA model
+     based on a document corpus"""
     def __init__(self):
         # Preprocessing
         self.operating_language = 'en'
@@ -141,13 +143,6 @@ class gensimLDA(object):
         id2word = corpora.Dictionary.load_from_text(self.save_foldername + '/' +
                                                            self.save_prefix + '_wordids.txt')
         self.corpus_dict = id2word
-
-    def initialize_environment(self):
-        self.define_filenames_and_foldername_save(prefix='lit', foldername='save')
-        self.load_corpus_dict_from_text()
-        print('Dictionary loaded')
-        self.load_corpus_mm()
-        print('Mm Corpus loaded')
 
     def train_lda_model(self, topics=100, chunksize=1000, passes = 3):
         """ Runs the LDA model with k topics"""
