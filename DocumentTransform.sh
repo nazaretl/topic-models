@@ -1,5 +1,6 @@
 #!/bin/bash
 # Transform documents into ASCII and remove all punctuation marks
+# Tested on Ubuntu 16.04
 declare -a documents=("example1" "example2" "example3")
 
 for i in "${documents[@]}"
