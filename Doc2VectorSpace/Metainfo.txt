@@ -1,0 +1,18 @@
+Name of Quantlet: Doc2VectorSpace
+
+Published in: 'Bachelor Thesis "Probabilistic Topic Models in Natural Language Processing"'
+
+Description: 'Represents large documents with at least partially overlapping vocabulary in a 3d vector space'
+
+Keywords: Latent Dirichlet Allocation, Dynamic Topic Model, topic models
+
+Author: Jerome Bau
+
+Submitted:  November 17 2016 by Jerome Bau
+
+Input: 
+- mm corpus and id2word dictionaries created by gensim wikipedia make files
+or 
+- raw txt files, cleaned of any punctuation marks and in ASCII encoding
+
+
