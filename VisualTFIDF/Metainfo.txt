@@ -1,0 +1,17 @@
+Name of Quantlet: VisualTFIDF
+
+Published in: 'Bachelor Thesis "Probabilistic Topic Models in Natural Language Processing"'
+
+Description: 'Plots index terms of large text corpora with respect to their document frequency in the corpus '
+
+Keywords: TFIDF, document frequency, Vector Space Model, text mining, Visualisation, bar chart
+
+Author: Jerome Bau
+
+Submitted:  November 17 2016 by Jerome Bau
+
+Input: 
+- tfidf corpus as created through the Python gensim libraries
+
+
+
