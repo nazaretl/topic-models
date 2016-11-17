@@ -13,7 +13,9 @@ Processes saved news articles into a Dynamic topic model
 Plots chosen index terms and their probability distribution in a given topic
 
 The input needs to be as follows:
-*.txt files that have been cleaned from any punctuation marks and any other non text elements
+*.txt files, encoded in the standard ACII encoding format that have been cleaned from any punctuation marks and
+any other non text elements.
+I did this using a simple bash script, included in this repository
 
 """
 source_folder = home/example  # folder that contains all the news articles

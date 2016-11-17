@@ -1,21 +1,26 @@
 from gensimLDA import *
+"""
+Match each article with their closest (topic-distribution-wise) article
+Articles need to be individual *.txt files, in standard ASCII encoding standard, cleaned of any punctuation marks and non-textual elements
+I cleaned articles with a simple bash script, included in this repository
+All articles are searched for by default in a folder called query/articles
+
+Returns a dictionary with the corresponding match
+"""
+
 l = gensimLDA()
 l.lda = g.lda
 l.corpus_dict = g.corpus_dict
 l.generate_stop_words()
-"""
-Match each article with their closest (topic-distribution-wise) article
-"""
-
 
 # saved all query articles in a folder called query
-# names as follows
+
 all_query_articles = {0: 'article1-1', 1: 'article1-2', 2: 'article2-1', 3: 'article2-2',
                       4: 'article3-1', 5: 'article3-2', 6: 'article4-1', 7: 'article4-2',
                       8: 'article5-1', 9: 'article5-2', 10: 'article6-1', 11: 'article6-2',
                       12: 'article7-1', 13: 'article7-2'}
 
-# filter meta_topics and stop word like topics
+# filter meta_topics and stop word-like topics
 filtered_topics = [13]
 
 for article in all_query_articles.values():

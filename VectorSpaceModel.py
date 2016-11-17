@@ -4,6 +4,9 @@ import pandas as pd
 
 """
 Represents large documents with at least partially overlapping vocabulary in a 3d vector space
+
+Input is expected to be a txt file, cleaned of any punctuation marks and in ASCII encoding format
+I did this using a simple bash script, included in this repository
 """
 
 

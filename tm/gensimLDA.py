@@ -1,6 +1,12 @@
 from stop_words import get_stop_words
 from gensim import corpora,  models, similarities
 import pandas as pd
+"""
+Expected input (as clearified in the function descriptions):
+- txt files cleaned of any punctuation  marks (for example using the bash script, located in this repository)
+- any saved mm corpus and dictionary produced by other gensim scripts
+    - including the output produced by the wiki make script from gensim (https://radimrehurek.com/gensim/wiki.html)
+"""
 
 
 class gensimLDA(object):
