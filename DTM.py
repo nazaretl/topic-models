@@ -6,11 +6,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.legend_handler import HandlerLine2D
 
-from gensimLDA import *  # Using gensimLDA.py
+from gensimLDA import *  # dependency on gensimLDA.py
 
 """
-Processes saved news articles that have been cleaned of any punctuation marks into a Dynamic topic model
+Processes saved news articles into a Dynamic topic model
 Plots chosen index terms and their probability distribution in a given topic
+
+The input needs to be as follows:
+*.txt files that have been cleaned from any punctuation marks and any other non text elements
+
 """
 source_folder = home/example  # folder that contains all the news articles
 dtm_compiled_path = home/example/dtm  # direct path to the C-Code compiled form David Blei's git
