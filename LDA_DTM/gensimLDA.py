@@ -15,7 +15,6 @@ class gensimLDA(object):
     def __init__(self):
         # Preprocessing
         self.operating_language = 'en'
-        # Paths
         self.source_filenames = None
         self.source_foldername = None
         self.save_foldername = None
