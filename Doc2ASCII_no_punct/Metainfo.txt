@@ -4,12 +4,12 @@ Published in: 'Bachelor Thesis "Probabilistic Topic Models in Natural Language P
 
 Description: 'Removes all punctuation marks and transforms the input to ASCII'
 
-Keywords: text mining, preprocessing
+Keywords: text mining, preprocessing AT LEAST 5 KEYWORDS
 
 Author: Jerome Bau
 
 Submitted:  November 17 2016 by Jerome Bau
 
-Input: txt file
+Input: txt file PLEASE WRITE WHY IT IS NOT IN THE Q ORDER (TOO BIG, USER HAS TO DOWNLOAD ON HIMSELF ETC)
 
 
