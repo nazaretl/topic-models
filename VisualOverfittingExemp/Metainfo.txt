@@ -4,7 +4,7 @@ Published in: 'Bachelor Thesis "Probabilistic Topic Models in Natural Language P
 
 Description: 'Uses a decision tree regression to give a visual example of overfitting'
 
-Keywords: DecisionTree, Overfitting, visualisation
+Keywords: 'DecisionTree, Decision Tree Regression, Overfitting, visualisation, random data, data generation'
 
 Author: Jerome Bau
 

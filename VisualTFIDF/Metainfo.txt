@@ -4,7 +4,7 @@ Published in: 'Bachelor Thesis "Probabilistic Topic Models in Natural Language P
 
 Description: 'Plots index terms of large text corpora with respect to their document frequency in the corpus'
 
-Keywords: TFIDF, document frequency, Vector Space Model, text mining, Visualisation, bar chart
+Keywords: 'TFIDF, document frequency, Vector Space Model, text mining, Visualisation, bar chart'
 
 Author: Jerome Bau
 

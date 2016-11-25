@@ -4,7 +4,7 @@ Published in: 'Bachelor Thesis "Probabilistic Topic Models in Natural Language P
 
 Description: 'Contains applications based on Python gensim to train and use Latent Dirichlet Allocation (LDA) and Dynamic Topic Models (DTM)'
 
-Keywords: 'Latent Dirichlet Allocation, Dynamic Topic Model, topic models, text mining'
+Keywords: 'Latent Dirichlet Allocation, Dynamic Topic Model, topic models, text mining, gensim, preprocessing, stop words'
 
 Author: Jerome Bau
 

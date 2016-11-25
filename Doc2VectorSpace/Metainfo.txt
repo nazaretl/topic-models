@@ -4,7 +4,7 @@ Published in: 'Bachelor Thesis "Probabilistic Topic Models in Natural Language P
 
 Description: 'Represents large documents with at least partially overlapping vocabulary in a 3d vector space'
 
-Keywords: Vector Space Model, text mining
+Keywords: Vector Space Model, text mining, literature interpretation, matplotlib, 3d plot
 
 Author: Jerome Bau
 
