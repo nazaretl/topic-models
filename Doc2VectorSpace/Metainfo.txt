@@ -11,5 +11,3 @@ Author: Jerome Bau
 Submitted:  November 17 2016 by Jerome Bau
 
 Input: 'raw txt files, cleaned of any punctuation marks and in ASCII encoding'
-
-
