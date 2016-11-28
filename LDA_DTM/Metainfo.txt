@@ -1,4 +1,4 @@
-Name of Quantlet: LDA_DTM
+Name of Quantlet: 'LDA_DTM'
 
 Published in: 'Bachelor Thesis "Probabilistic Topic Models in Natural Language Processing"'
 
