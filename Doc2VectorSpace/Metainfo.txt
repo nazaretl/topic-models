@@ -1,4 +1,4 @@
-Name of Quantlet: Doc2VectorSpace
+Name of Quantlet: 'Doc2VectorSpace'
 
 Published in: 'Bachelor Thesis "Probabilistic Topic Models in Natural Language Processing"'
 
